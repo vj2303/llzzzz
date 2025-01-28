@@ -49,14 +49,14 @@ const ChooseOffers = ({ onApplyOffer }) => {
             <p className="text-blue-500">{appliedOffer.code}</p>
           </>
         ) : (
-          <p className=" text-[18px] text-black font-medium gap-1 flex items-center">
+          <p className=" text-[18px] text-black font-medium gap-2 flex items-center">
             {/* <video width="30" height="30" autoplay loop muted>
               <source src="/MainScene.webm" type="video/webm" />
             </video> */}
             {/* <Lottie animationData = {discountAnimation} /> */}
             <Lottie
         animationData={discountAnimation}
-        style={{ width: '25px', height: '25px' }} // Adjust size here
+        style={{ width: '30px', height: '30px' }} // Adjust size here
       />
           
             {/* <DotLottieReact
